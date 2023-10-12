@@ -1,0 +1,58 @@
+.a {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .a .group-wrapper1 {
+    background-color: #ffffff;
+    width: 595px;
+    height: 842px;
+  }
+  
+  .a .group1 {
+    position: relative;
+    width: 109px;
+    height: 56px;
+    top: 377px;
+    left: 227px;
+  }
+  
+  .a .div-wrapper1 {
+    height: 56px;
+    background-color: var(--main-void600);
+    border-radius: 16px;
+    box-shadow: var(--button-shadow);
+  }
+  
+  .a .div1 {
+    position: relative;
+    width: 66px;
+    height: 24px;
+    top: 16px;
+    left: 22px;
+  }
+  
+  .a .text-wrapper1 {
+    position: absolute;
+    top: 4px;
+    left: 32px;
+    font-family: "Beausite Classic-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
+  .a .vuesax-linear {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: 0;
+  }
+  
