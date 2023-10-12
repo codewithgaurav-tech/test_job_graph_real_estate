@@ -14,7 +14,7 @@ function App() {
     setShowData(true);
 
     const doc = new jsPDF({
-      orientation: "landscape",
+      orientation: "portrait",
       format: "a1",
       unit: "pt",
     });
