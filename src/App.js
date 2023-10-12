@@ -15,13 +15,13 @@ function App() {
 
     const doc = new jsPDF({
       orientation: "portrait",
-      format: "a1",
+      format: "a2",
       unit: "pt",
     });
 
     // Wait for the Home component and its child components to render
     await new Promise((resolve) => {
-      setTimeout(resolve, 2000); // make a 2 second delay because graph api takes time 
+      setTimeout(resolve, 3000); // make a 2 second delay because graph api takes time 
     });
 
     // Capture the Home component
